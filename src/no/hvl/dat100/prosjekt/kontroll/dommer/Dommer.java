@@ -48,7 +48,7 @@ public class Dommer {
 	
 	private static ArrayList<Kort> toArrayList(KortSamling samling) {
 		
-		int antallKort = samling.getAntalKort();
+		int antallKort = samling.getAntallKort();
 		Kort[] kortTab = samling.getSamling();
 
 		ArrayList<Kort> list = new ArrayList<Kort>();

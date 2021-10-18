@@ -22,8 +22,9 @@ public class Bord {
 	public Bord() {
 		
 		bunkeFra = new KortSamling();
-		bunkeFra.leggTilAlle();
 		bunkeTil = new KortSamling();
+		
+		bunkeFra.leggTilAlle();
 		
 	}
 	

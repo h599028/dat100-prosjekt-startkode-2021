@@ -24,7 +24,7 @@ public class NordSpiller extends Spiller {
 	public Handling nesteHandling(Kort topp) {
 		
 		// ArrayLister for de kort vi har og kan spille
-		Kort[] hand = getHand().getAllekort();
+		Kort[] hand = getHand().getAlleKort();
 		KortSamling lovlige = new KortSamling();
 		KortSamling attere = new KortSamling();
 
@@ -43,9 +43,9 @@ public class NordSpiller extends Spiller {
 		Kort[] spillFra = null;
 
 		if (!lovlige.erTom()) {
-			spillFra = lovlige.getAllekort();
+			spillFra = lovlige.getAlleKort();
 		} else if (!attere.erTom())  {
-			spillFra = attere.getAllekort();
+			spillFra = attere.getAlleKort();
 		}
 
 		Handling handling = null;

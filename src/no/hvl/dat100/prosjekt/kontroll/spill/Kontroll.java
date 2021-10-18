@@ -96,7 +96,7 @@ public class Kontroll {
 	}
 
 	public Kort[] kortSyd() {
-		return spill.getSyd().getHand().getAllekort();
+		return spill.getSyd().getHand().getAlleKort();
 	}
 
 	//
